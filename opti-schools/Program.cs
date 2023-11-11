@@ -6,8 +6,8 @@ namespace opti_schools
     {
         static void Main()
         {
-            Console.WriteLine("fly");
-            new Home_work().A();
+            Console.Write("есть изменение в расписании? [y/n] ");
+
         }
     }
 }
