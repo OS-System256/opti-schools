@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 namespace opti_schools
 {
-    class Home_work
+    class Work
     {
-        public void A()
+        public void расписание()
         {
-            Console.Write("hool");
-            string a;
-            a = Console.ReadLine();
-            Console.WriteLine(a);
+            new Program().Main0();
+        }
+        public void домашка()
+        {
+            new Program().Main0();
         }
     }
 }
