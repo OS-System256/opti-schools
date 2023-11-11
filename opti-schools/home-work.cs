@@ -6,7 +6,7 @@ namespace opti_schools
     {
         public Home_work()
         {
-            Console.Write("hool ");
+            Console.Write("hool: ");
             string a;
             a = Console.ReadLine();
             Console.WriteLine(a);
