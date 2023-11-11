@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace opti_schools
 {
@@ -30,15 +31,89 @@ namespace opti_schools
             }
             if (start_menu_string == "3")
             {
-                Console.Write("У вас есть список всех предметов из которого состоит расписание или вам не трубуется измениение этого списка [y/n] ");
-                start_menu_string = Console.ReadLine();
-                if (start_menu_string == "y")
+                string a;
+                string fly;
+                string fill;
+                string a0 = "понедельник";
+                a0 = "превый";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\1.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
                 {
-                    new Program().Main0();
+                    txt.Write(a);
                 }
-                if (start_menu_string == "n")
+                a0 = "второй";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\2.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
                 {
-                    new Work().расписание();
+                    txt.Write(a);
+                }
+                a0 = "третий";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\3.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "четвёртый";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\4.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "пятый";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\5.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "шестой";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\6.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "седьмой";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\7.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "восьмой";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\8.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "девятый";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-schools\9.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
+                }
+                a0 = "десятый";
+                Console.Write("Введите " + a0 + " предмет из расписания (из 20 предметов): ");
+                a = Console.ReadLine();
+                fill = @"$HOME\AppData\Local\opti-shools\10.txt";
+                using (StreamWriter txt = new StreamWriter(fill))
+                {
+                    txt.Write(a);
                 }
             }
             if (start_menu_string == "q")
