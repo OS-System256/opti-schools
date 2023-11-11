@@ -7,8 +7,7 @@ namespace opti_schools
         static void Main()
         {
             Console.WriteLine("fly");
-            var a = new Home_work();
-            Console.WriteLine(a);
+            new Home_work().A();
         }
     }
 }
