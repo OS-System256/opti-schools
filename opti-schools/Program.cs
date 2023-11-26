@@ -27,7 +27,7 @@ namespace opti_schools
             }
             if (start_menu_string == "2")
             {
-                
+                Console.WriteLine("данный функционал недоступен, по причине разработки");
             }
             if (start_menu_string == "3")
             {
